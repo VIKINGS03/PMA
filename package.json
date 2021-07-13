@@ -1,0 +1,16 @@
+{
+  "name": "priyendu-music-academy",
+  "version": "1.0.0",
+  "description": "This website provides details about everyrhing related to the priyendu's music academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikas Singh",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
