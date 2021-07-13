@@ -1,0 +1,32 @@
+extends base.pug
+
+block style
+    style
+        include ../static/style.css
+        include ../static/contact.css
+
+block content
+    div.container
+        h2 Contact Us
+        form(action="/contact", method="POST" class="contactForm")
+            div.co
+                | Name: 
+                input(type="text", name="name", class="myinput", placeholder="Enter Your Name")
+            div.co
+                | Mobile:
+                input(type="phone", name="phone", class="myinput", placeholder="Enter Your Phone Number")
+            div.co
+                | Email:
+                input(type="email", name="email", class="myinput", placeholder="Enter Your Email-Id")
+            div.co
+                | Age:     
+                input(type="age", name="age", class="myinput", placeholder="Enter Your Age")
+            div.co
+                | Gender: Male 
+                input(type="radio", name="gender", value="M")
+                | Female
+                input(type="radio", name="gender", value="F")
+            div.co
+                textarea(name="concern", class="myinput", placeholder ="Please Write your Concern")
+            button(type="submit" class="btn")
+               | Submit 

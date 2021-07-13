@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.container{
+    min-height: 82.5vh;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    padding: 15px 0px;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.co{
+    margin: 5px 0px;
+    padding: 0px 0px;
+    width: 30%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.2rem;
+}
+.myinput{
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: #d9e6fe;
+    width: 100%;
+    outline: none;
+}
+.btn{
+    margin: 9px 5px;
+    padding: 8px 13px;
+    font-size: 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: #d9e6fe;
+}

@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        title Priyendu's Music Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                    | PMA
+                li #[a(href="/") Home]
+                li #[a(href="/") Courses]
+                li #[a(href="/") Alumnus]
+                li #[a(href="/") Educators]
+                li #[a(href="/") About Us]
+                li #[a(href="/") Contact Us]
+        section#intro
+            h1 Welcome to Priyendu's Music Academy
+            h2#r "Music is the only thing I’ve ever known that doesn’t have any rules at all."
+            h2#o "Music can name the unnameable and communicate the unknowable."
+            h2#y "Music washes away from the soul the dust of everyday life."
+            h2#g "Life is one grand, sweet song so start the music."
+            h2#b "Without music, life would be a blank to me."
+            h2#i "Music is the strongest form of magic."
+            h2#v "Music is the shorthand of emotion."
+        section#mission
+            h2 OUR MISSION
+            div.cardcontain
+                div#card1.cards
+                    p Achive harmony with music.
+                    div.card-content
+                        img(src="/static/1.png")
+                        | Priyendu is the best Guitarist.
+                div#card2.cards
+                    p Use music to revolutionise the world.
+                    div.card-content
+                        img(src="/static/2.png")
+                        | Priyendu is the best Drummer.
+                div#card3.cards
+                    p Settle at nothing less than the the perfection.
+                    div.card-content
+                        img(src="/static/3.png")
+                        | Priyendu is the best Board Player.
+        section#sponsors
+            h2 OUR SPONSORS
+            div#spimage
+                img(src="/static/logo1.png" alt="Google" class="spimage")
+                img(src="/static/logo2.png" alt="Microsoft" class="spimage")
+                img(src="/static/logo3.png" alt="Amazon" class="spimage")
+                img(src="/static/logo4.png" alt="Apple" class="spimage")
+        footer#footer
+            | Copyright© www.PMA.com. All rights reserved!
+        script
+            include ../static/index.js
